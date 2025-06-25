@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -31,7 +31,6 @@ const Navbar = () => {
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
-    // { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
     { id: "contact", label: "Contact Us" },

@@ -1,5 +1,4 @@
-import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaGit, FaGithub } from "react-icons/fa";
+import { FaFacebook,  FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   // Smooth scroll function
@@ -21,7 +20,6 @@ const Footer = () => {
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
-            // { name: "Experience", id: "experience" },
             { name: "Projects", id: "work" },
             { name: "Education", id: "education" },
           ].map((item, index) => (
@@ -39,7 +37,6 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             { icon: <FaFacebook />, link: "https://www.facebook.com/share/1CBEMACQBH/" },
-            // { icon: <FaTwitter />, link: "https://twitter.com/CodingMaster6?s=09" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/afnan-mir-a60171252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/afnanmir8?igsh=dHZpaGZuZmw5MjF1" },
             { icon: <FaGithub />, link: "https://github.com/Afnanmir8/" },

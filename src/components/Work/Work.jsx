@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { projects } from "../../constants";
 
 const Work = () => {
@@ -71,7 +71,6 @@ const Work = () => {
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
-                // className="text-white text-3xl font-bold hover:text-purple-500"
                className=" absolute top-4 right-4 text-white text-4xl font-bold hover:text-purple-500 transition duration-300 ease-in-out"
               >
                 &times;
