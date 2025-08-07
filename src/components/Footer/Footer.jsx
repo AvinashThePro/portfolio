@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
-        <h2 className="text-xl font-semibold text-purple-500">Afnan Mir</h2>
+        <h2 className="text-xl font-semibold text-purple-500">Avinash Kumar Singh</h2>
 
         {/* Navigation Links - Responsive */}
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
@@ -36,10 +36,10 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaFacebook />, link: "https://www.facebook.com/share/1CBEMACQBH/" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/afnan-mir-a60171252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/afnanmir8?igsh=dHZpaGZuZmw5MjF1" },
-            { icon: <FaGithub />, link: "https://github.com/Afnanmir8/" },
+            { icon: <FaFacebook />, link: "https://www.facebook.com/avinashsingh.rajput.9862" },
+            { icon: <FaLinkedin />, link: "/https://www.linkedin.com/in/avinash-singh-a93666327" },
+            { icon: <FaInstagram />, link: "https://www.instagram.com/avinash_singh_9862/" },
+            { icon: <FaGithub />, link: "https://github.com/AvinashThePro" },
             
           ].map((item, index) => (
             <a
@@ -56,7 +56,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Afnan Mir. All rights reserved.
+          © 2025 Avinash Kumar Singh. All rights reserved.
         </p>
       </div>
     </footer>
